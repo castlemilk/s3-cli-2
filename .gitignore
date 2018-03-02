@@ -1,0 +1,11 @@
+config.yml
+*.json
+*.pyc
+*cli
+*venv
+tests*.py
+*test*
+*test*.py
+*lib/test*
+*.idea
+*.DS_Store

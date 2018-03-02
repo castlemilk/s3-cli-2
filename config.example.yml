@@ -1,0 +1,19 @@
+auth:
+  username: smithy
+  password: chips
+  token_url: https://my/special/and/secure/endpoint/token
+  client:
+    id: my-yummy-id-you-might-know
+    secret: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxx
+API:
+  url: https://api-endpoint.com/api/
+
+save:
+  directory: /tmp/
+  retention_time: 1h
+
+logging:
+  debug: false
+  enabled: false
+  level: exception
+  file: /var/log/wifi-docs.log
